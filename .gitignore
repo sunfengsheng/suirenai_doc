@@ -1,0 +1,15 @@
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+.claude/
+.playwright-mcp/
+.remember/
+
+*.log
+
+# 保留 docs/public 里的截图
+*.png
+*.jpg
+!docs/public/**/*.png
+!docs/public/**/*.jpg

@@ -1,0 +1,7 @@
+services:
+  docs:
+    build: .
+    container_name: suirenai-docs
+    restart: unless-stopped
+    ports:
+      - "4173:80"
