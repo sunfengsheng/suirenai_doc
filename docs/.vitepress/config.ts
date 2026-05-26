@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'Suirenai 文档',
   description: '遂人 AI — 订阅转 API 平台使用文档',
   lang: 'zh-CN',
+  ignoreDeadLinks: true,
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
