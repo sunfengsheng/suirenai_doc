@@ -24,7 +24,6 @@ export default defineConfig({
         text: '更多',
         items: [
           { text: '高级功能', link: '/advanced/AionUI' },
-          { text: '绘图工具', link: '/paint/GPTImage' },
           { text: '服务条款', link: '/tos/TOS' },
         ],
       },
@@ -129,9 +128,7 @@ export default defineConfig({
       ],
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/farion1231/cc-switch' },
-    ],
+    socialLinks: [],
 
     footer: {
       message: '基于 MIT 许可发布',
