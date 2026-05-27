@@ -16,21 +16,21 @@
 生效日期| 2025-11-20  
 来源链接| <https://www.suirenai.com/terms>  
   
-  * [概述](/docs/tos/TOS.html#概述)
-  * [A. 服务](/docs/tos/TOS.html#a-服务)
-  * [B. 客户内容](/docs/tos/TOS.html#b-客户内容)
-  * [C. 数据隐私](/docs/tos/TOS.html#c-数据隐私)
-  * [D. 信任与安全；限制](/docs/tos/TOS.html#d-信任与安全-限制)
-  * [E. 保密](/docs/tos/TOS.html#e-保密)
-  * [F. 知识产权](/docs/tos/TOS.html#f-知识产权)
-  * [G. 宣传](/docs/tos/TOS.html#g-宣传)
-  * [H. 费用](/docs/tos/TOS.html#h-费用)
-  * [I. 终止和暂停](/docs/tos/TOS.html#i-终止和暂停)
-  * [J. 争议](/docs/tos/TOS.html#j-争议)
-  * [K. 赔偿](/docs/tos/TOS.html#k-赔偿)
-  * [L. 担保和责任限制](/docs/tos/TOS.html#l-担保和责任限制)
-  * [M. 杂项](/docs/tos/TOS.html#m-杂项)
-  * [相关链接](/docs/tos/TOS.html#相关链接)
+  * [概述]()
+  * [A. 服务]()
+  * [B. 客户内容]()
+  * [C. 数据隐私]()
+  * [D. 信任与安全；限制]()
+  * [E. 保密]()
+  * [F. 知识产权]()
+  * [G. 宣传]()
+  * [H. 费用]()
+  * [I. 终止和暂停]()
+  * [J. 争议]()
+  * [K. 赔偿]()
+  * [L. 担保和责任限制]()
+  * [M. 杂项]()
+  * [相关链接]()
 
 
 ## 概述

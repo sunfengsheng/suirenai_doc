@@ -52,7 +52,7 @@ claude
 
 **第二步十分重要，请你务必跳转链接后运行命令进行配置**
 
-  2. 点击 [claude code 无法连接到 Anthropic 服务](/docs/faq/CC.html#claude-code-%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E5%88%B0-anthropic-%E6%9C%8D%E5%8A%A1) 跳转，务必根据教程运行命令，然后再继续阅读之后单独CLI的配置教程
+  2. 点击 [claude code 无法连接到 Anthropic 服务](/faq/CC) 跳转，务必根据教程运行命令，然后再继续阅读之后单独CLI的配置教程
 
 
 Codex

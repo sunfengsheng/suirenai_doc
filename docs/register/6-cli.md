@@ -10,7 +10,7 @@ Suirenai 支持在命令行中使用 Claude Code、Codex、Gemini CLI
 开始配置 CLI 前，请先完成以下步骤：
 
   1. 完成 [环境检查](/register/5-env)，确保 Node.js 和 npm 可以正常使用。
-  2. 完成 [安装 CLI](/docs/cli/1-env.html#_2-%E5%AE%89%E8%A3%85cli)，安装 Claude Code、Codex、Gemini CLI。
+  2. 完成 [安装 CLI](/cli/1-env)，安装 Claude Code、Codex、Gemini CLI。
 
 
 ## API 端点说明
@@ -36,7 +36,7 @@ https://api.suirenai.com/v1
 
 为了让配置过程进行轻便简单，我们**极力推荐** 使用Github开源项目 [CC-Switch](https://github.com/farion1231/cc-switch)来对我们的使用环境进行配置。
 
-[CC-Switch配置CC、Codex、Gemini教程](/docs/ccswitch/)
+[CC-Switch配置CC、Codex、Gemini教程](/ccswitch/1-common)
 
 如果你是老鸟，或者不愿意使用此工具，可以参考以下CLI配置教程文档，**但我们还是极力推荐使用此工具，能省很多时间！**
 

@@ -16,10 +16,10 @@
 生效日期| 2025-10-30  
 来源链接| <https://www.suirenai.com/supported-regions>  
   
-  * [概述](/docs/tos/use.html#概述)
-  * [API](/docs/tos/use.html#api)
-  * [其他说明](/docs/tos/use.html#其他说明)
-  * [相关链接](/docs/tos/use.html#相关链接)
+  * [概述]()
+  * [API]()
+  * [其他说明]()
+  * [相关链接]()
 
 
 ## 概述

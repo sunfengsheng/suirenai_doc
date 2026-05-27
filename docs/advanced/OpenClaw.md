@@ -87,11 +87,11 @@ Packy专门为OpenClaw配置写了一个配置脚本，Github地址为：[opencl
 
 **目前推荐在OpenClaw使用的分组：**
 
-  * **GPT：[codex分组](/docs/token/2-token.html#codex%E5%88%86%E7%BB%84)、[gpt-officially分组](/docs/token/2-token.html#gpt-officially%E5%88%86%E7%BB%84)**
+  * **GPT：[codex分组](/token/2-group)、[gpt-officially分组](/token/2-group)**
 
-  * **Claude：[aws-q分组](/docs/token/2-token.html#aws-q%E5%88%86%E7%BB%84)、[aws分组](/docs/token/2-token.html#aws%E5%88%86%E7%BB%84)、[claude-officially分组](/docs/token/2-token.html#claude-officially%E5%88%86%E7%BB%84)**
+  * **Claude：[aws-q分组](/token/2-group)、[aws分组](/token/2-group)、[claude-officially分组](/token/2-group)**
 
-  * **Gemini** ：[gemini-slb分组](/docs/token/2-token.html#gemini-slb%E5%88%86%E7%BB%84)
+  * **Gemini** ：[gemini-slb分组](/token/2-group)
 
 
 **请您创建正确分组的APIKEY后填入**

@@ -3,8 +3,8 @@
 
 * * *
 
-  * [Gemini CLI 使用难题与建议](/docs/faq/Gemini.html#gemini-cli-使用难题与建议)
-  * [如何在 Cline 使用 Gemini-3](/docs/faq/Gemini.html#如何在-cline-使用-gemini-3)
+  * [Gemini CLI 使用难题与建议](/faq/Gemini)
+  * [如何在 Cline 使用 Gemini-3](/faq/Gemini)
 
 
 ###  Gemini CLI 使用难题与建议
@@ -24,7 +24,7 @@ Gemini CLI 目前存在多种使用问题，例如可能无法正常调用模型
 
 重要
 
-如果你不会使用 Roo Code，我们推荐你使用 Antigravity 分组渠道的模型在 Gemini CLI 使用，能比较好地适配 CLI。特别提醒：该分组的 Gemini-3 模型名称可能与其他分组不同，详情查看 [Antigravity 分组说明](/docs/token/2-token.html#antigravity%E5%88%86%E7%BB%84) 内容，避免配置时出现“无可用渠道”或“模型不存在”问题。
+如果你不会使用 Roo Code，我们推荐你使用 Antigravity 分组渠道的模型在 Gemini CLI 使用，能比较好地适配 CLI。特别提醒：该分组的 Gemini-3 模型名称可能与其他分组不同，详情查看 [Antigravity 分组说明](/token/2-group) 内容，避免配置时出现“无可用渠道”或“模型不存在”问题。
 
 特别提醒
 

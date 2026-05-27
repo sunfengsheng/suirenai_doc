@@ -16,20 +16,20 @@
 生效日期| 2025-10-30  
 来源链接| <https://www.suirenai.com/service-specific-terms>  
   
-  * [概述](/docs/tos/service-specific-terms.html#概述)
-  * [A. Suirenai 工作版（团队计划；企业计划）](/docs/tos/service-specific-terms.html#a-suirenai-工作版-团队计划-企业计划)
-  * [B. Beta 服务](/docs/tos/service-specific-terms.html#b-beta-服务)
-  * [C. 微调服务](/docs/tos/service-specific-terms.html#c-微调服务)
-  * [D. 云托管服务](/docs/tos/service-specific-terms.html#d-云托管服务)
-    * [一般](/docs/tos/service-specific-terms.html#一般)
-    * [云平台上的内容](/docs/tos/service-specific-terms.html#云平台上的内容)
-    * [费用](/docs/tos/service-specific-terms.html#费用)
-  * [E. 开发合作伙伴计划](/docs/tos/service-specific-terms.html#e-开发合作伙伴计划)
-  * [F. API 使用限制](/docs/tos/service-specific-terms.html#f-api-使用限制)
-  * [G. 数据保留](/docs/tos/service-specific-terms.html#g-数据保留)
-  * [H. 服务级别协议（SLA）](/docs/tos/service-specific-terms.html#h-服务级别协议-sla)
-  * [I. 更新和修改](/docs/tos/service-specific-terms.html#i-更新和修改)
-  * [相关链接](/docs/tos/service-specific-terms.html#相关链接)
+  * [概述]()
+  * [A. Suirenai 工作版（团队计划；企业计划）](suirenai-工作版-团队计划-企业计划)
+  * [B. Beta 服务]()
+  * [C. 微调服务]()
+  * [D. 云托管服务]()
+    * [一般]()
+    * [云平台上的内容]()
+    * [费用]()
+  * [E. 开发合作伙伴计划]()
+  * [F. API 使用限制]()
+  * [G. 数据保留]()
+  * [H. 服务级别协议（SLA）](sla)
+  * [I. 更新和修改]()
+  * [相关链接]()
 
 
 ## 概述

@@ -75,4 +75,4 @@ MacOS
 重要
 
 **注意，如果配置完仍然有报错问题，提示你需要登录，请看如下链接解决**\
-[claude-code-无法连接到-anthropic-服务](/docs/faq/CC.html#claude-code-%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E5%88%B0-anthropic-%E6%9C%8D%E5%8A%A1)
+[claude-code-无法连接到-anthropic-服务](/faq/CC)

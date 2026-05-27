@@ -5,7 +5,7 @@
 
 ## 使用Cherry Studio绘图
 
-  1. 参照 [创建密钥分组](/docs/register/4-token.html#%E8%BF%9B%E5%85%A5%E4%BB%A4%E7%89%8C%E7%AE%A1%E7%90%86) 一章的教程，你需要创建**密钥分组** 为 `gemini` 的令牌。在创建好令牌后，点击图中复制按钮，将令牌复制到剪切板
+  1. 参照 [创建密钥分组](/register/4-token) 一章的教程，你需要创建**密钥分组** 为 `gemini` 的令牌。在创建好令牌后，点击图中复制按钮，将令牌复制到剪切板
 
 ![](https://docs.packyapi.com/assets/image/Paint/banana/01.webp)
 
