@@ -15,7 +15,6 @@ export default defineConfig({
     siteTitle: 'Suirenai',
 
     nav: [
-      { text: '首页', link: '/' },
       { text: '快速开始', link: '/register/1-register' },
       { text: 'CLI 配置', link: '/cli/1-env' },
       { text: 'CC-Switch', link: '/ccswitch/1-common' },
