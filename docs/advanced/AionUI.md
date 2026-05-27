@@ -124,7 +124,7 @@ Gemini
 使用 **Gemini** 分组的 API Key，填入以下配置：
 
   * **API Key** ：粘贴从 Suirenai 复制的 API Key
-  * **API 请求地址** ：`https://www.suirenai.com`
+  * **API 请求地址** ：`https://api.suirenai.com`
   * **模型** ：选择 Suirenai 支持的 Gemini 模型
 
 
@@ -133,7 +133,7 @@ Claude
 使用 **CC** 分组的 API Key，填入以下配置：
 
   * **API Key** ：粘贴从 Suirenai 复制的 API Key
-  * **API 请求地址** ：`https://www.suirenai.com`
+  * **API 请求地址** ：`https://api.suirenai.com`
   * **模型** ：选择 Suirenai 支持的 Claude 模型
 
 

@@ -19,17 +19,16 @@ Suirenai 支持在命令行中使用 Claude Code、Codex、Gemini CLI
 
 ![](/images/QuickStart/009.png)
 
-  * 主站 Endpoint：`https://www.suirenai.com`，稳定可靠，适合生产环境。
-  * 优化线路 Endpoint：`https://api.suirenai.com`，优化线路，适合对延迟敏感的场景。
+  * API Endpoint：`https://api.suirenai.com`
 
 
 OpenAI 兼容端点需要添加 `/v1`
 
 如果你使用的是 OpenAI 兼容格式的客户端或工具，例如 Codex、OpenAI SDK、Cherry Studio 的 OpenAI 兼容配置，请在 API 地址后添加 `/v1`：
-    
-    
-    https://api.suirenai.com/v1
-    https://api.suirenai.com/v1
+
+```
+https://api.suirenai.com/v1
+```
 
 如果使用的是 Claude Code、Gemini CLI 等专用配置，请以对应教程中的示例为准。
 

@@ -27,9 +27,9 @@
   2. 按照下方内容填写供应商信息：
 
      * **供应商名称** ：`Suirenai`
-     * **官网链接** ：`https://www.suirenai.com`
+     * **官网链接** ：`https://api.suirenai.com`
      * **API Key** ：填写刚才创建的 `deepseek-officially` 分组 API Key
-     * **请求地址** ：`https://www.suirenai.com`
+     * **请求地址** ：`https://api.suirenai.com`
      * **API 格式** ：`Anthropic Messages（原生）`
      * **主模型** ：默认填写 `deepseek-v4-pro`；需要开启 1m 上下文时才填写 `deepseek-v4-pro[1m]`
      * **推理模型（Thinking）** ：默认填写 `deepseek-v4-pro`；需要开启 1m 上下文时才填写 `deepseek-v4-pro[1m]`
@@ -70,7 +70,7 @@ MacOS
     
     {
       "env": {
-        "ANTHROPIC_BASE_URL": "https://www.suirenai.com",
+        "ANTHROPIC_BASE_URL": "https://api.suirenai.com",
         "ANTHROPIC_AUTH_TOKEN": "{{新建的令牌}}",
         "ANTHROPIC_DEFAULT_HAIKU_MODEL": "deepseek-v4-flash",
         "ANTHROPIC_MODEL": "deepseek-v4-pro",

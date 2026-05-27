@@ -18,13 +18,10 @@ Windows
 
 1. 将以下内容写入 `settings.json`
 
-```
+```json
 {
-```
-
-```
   "env": {
-    "ANTHROPIC_BASE_URL": "https://suirenai.limuran.top",
+    "ANTHROPIC_BASE_URL": "https://api.suirenai.com",
     "ANTHROPIC_AUTH_TOKEN": "xxx",
     "CLAUDE_CODE_ATTRIBUTION_HEADER": "0",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
@@ -57,13 +54,10 @@ MacOS
 
 1. 将以下内容写入 `settings.json`
 
-```
+```json
 {
-```
-
-```
   "env": {
-    "ANTHROPIC_BASE_URL": "https://suirenai.limuran.top",
+    "ANTHROPIC_BASE_URL": "https://api.suirenai.com",
     "ANTHROPIC_AUTH_TOKEN": "xxx",
     "CLAUDE_CODE_ATTRIBUTION_HEADER": "0",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",

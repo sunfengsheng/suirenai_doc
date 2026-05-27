@@ -24,7 +24,6 @@ export default defineConfig({
         text: '更多',
         items: [
           { text: '高级功能', link: '/advanced/AionUI' },
-          { text: '服务条款', link: '/tos/TOS' },
         ],
       },
     ],
@@ -35,7 +34,6 @@ export default defineConfig({
           text: '快速开始',
           items: [
             { text: '注册账号', link: '/register/1-register' },
-            { text: '登录账号', link: '/register/2-login' },
             { text: '购买额度', link: '/register/3-quota' },
             { text: '创建 API 密钥', link: '/register/4-token' },
             { text: '环境检查', link: '/register/5-env' },
@@ -115,17 +113,6 @@ export default defineConfig({
         },
       ],
 
-      '/tos/': [
-        {
-          text: '服务条款',
-          items: [
-            { text: '服务条款', link: '/tos/TOS' },
-            { text: '使用政策', link: '/tos/use' },
-            { text: '可接受使用政策', link: '/tos/aup' },
-            { text: '特定服务条款', link: '/tos/service-specific-terms' },
-          ],
-        },
-      ],
     },
 
     socialLinks: [],

@@ -38,9 +38,9 @@
 
   2. 预设供应商选择 `Suirenai`，并按照下方内容填写：
 
-     * **官网链接** ：`https://www.suirenai.com`
+     * **官网链接** ：`https://api.suirenai.com`
      * **API Key** ：填写刚才创建的 `codex` 分组 API Key
-     * **请求地址** ：`https://www.suirenai.com`
+     * **请求地址** ：`https://api.suirenai.com`
      * **API 格式** ：`OpenAI Responses API（需开启路由）`
      * **主模型** ：填写你希望映射到 Claude Code 主模型的 GPT 模型，例如 `gpt-5.5`
      * **Haiku 默认模型** ：填写较轻量的 GPT 模型，例如 `gpt-5.4-mini`

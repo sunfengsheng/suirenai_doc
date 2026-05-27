@@ -28,120 +28,55 @@ npm run docs:dev -- --host
 
 ### 环境要求
 
-- Docker >= 20.x
-- Docker Compose >= 2.x
+服务器只需安装 **Nginx**，无需 Docker 或 Node.js。
 
-### 首次部署
-
-```bash
-# 1. 克隆仓库
-git clone git@github.com:sunfengsheng/suirenai_doc.git
-cd suirenai_doc
-
-# 2. 构建并启动
-docker compose up -d --build
-
-# 访问地址：http://<服务器IP>:4173
-```
-
-### 更新部署
+### 步骤
 
 ```bash
-cd /opt/suirenai_doc
+# 1. 本地构建
+npm run docs:build
+# 产物在 docs/.vitepress/dist/
 
-# 拉取最新代码
-git pull origin main
-
-# 重新构建并启动
-docker compose up -d --build
-
-# 清理旧镜像（可选）
-docker image prune -f
+# 2. 上传到服务器
+rsync -avz --delete docs/.vitepress/dist/ root@<服务器IP>:/var/www/suirenai-docs/
 ```
 
-### 常用命令
+### Nginx 配置
+
+```nginx
+server {
+    listen 80;
+    server_name _;
+
+    root /var/www/suirenai-docs;
+    index index.html;
+
+    gzip on;
+    gzip_types text/plain text/css application/javascript application/json image/svg+xml;
+
+    location ~* \.(js|css|png|jpg|ico|svg|woff2?)$ {
+        expires 30d;
+        add_header Cache-Control "public, immutable";
+    }
+
+    location / {
+        try_files $uri $uri/ $uri.html /index.html;
+    }
+}
+```
 
 ```bash
-# 查看运行状态
-docker compose ps
-
-# 查看日志
-docker compose logs -f
-
-# 停止服务
-docker compose down
-
-# 重启服务
-docker compose restart
+# 应用配置
+nginx -t && systemctl reload nginx
 ```
-
-### 修改端口
-
-默认端口为 `4173`，如需修改，编辑 `docker-compose.yml`：
-
-```yaml
-ports:
-  - "你的端口:80"
-```
-
-修改后重新执行 `docker compose up -d --build`。
 
 ---
 
 ## 自动部署（GitHub Actions）
 
-每次推送到 `main` 分支后，GitHub Actions 自动 SSH 到服务器执行更新，无需手动操作。
+每次推送到 `main` 分支，GitHub Actions 自动完成：**构建 → rsync 同步到服务器**，无需在服务器安装 Docker 或 Node.js。
 
-### 配置步骤
-
-#### 1. 生成 SSH 密钥（服务器上执行）
-
-```bash
-ssh-keygen -t rsa -b 4096 -C "github-deploy" -f ~/.ssh/github_deploy -N ""
-
-# 将公钥添加到服务器授权列表
-cat ~/.ssh/github_deploy.pub >> ~/.ssh/authorized_keys
-
-# 查看私钥内容（下一步要用）
-cat ~/.ssh/github_deploy
-```
-
-#### 2. 在 GitHub 仓库添加 Secrets
-
-进入仓库 → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**，依次添加：
-
-| Secret 名 | 说明 | 示例值 |
-|---|---|---|
-| `SERVER_HOST` | 服务器 IP 或域名 | `192.168.1.100` |
-| `SERVER_USER` | SSH 登录用户名 | `root` |
-| `SERVER_SSH_KEY` | 上一步生成的私钥完整内容 | `-----BEGIN RSA PRIVATE KEY-----...` |
-| `SERVER_PATH` | 项目在服务器的路径 | `/opt/suirenai_doc` |
-
-#### 3. 服务器首次初始化
-
-```bash
-git clone git@github.com:sunfengsheng/suirenai_doc.git /opt/suirenai_doc
-cd /opt/suirenai_doc
-docker compose up -d --build
-```
-
-#### 4. 触发自动部署
-
-之后只需在本地推送代码：
-
-```bash
-git add .
-git commit -m "your message"
-git push
-```
-
-推送后自动执行：`git pull` → `docker compose up -d --build` → 清理旧镜像。
-
-### 查看部署日志
-
-仓库页面 → **Actions** 标签页，点击对应的 workflow 可查看每一步的执行日志。
-
-### 部署流程图
+### 流程
 
 ```
 本地 git push
@@ -149,33 +84,66 @@ git push
       ▼
 GitHub Actions 触发
       │
-      ▼
-SSH 连接服务器
-      │
-      ├─ git pull origin main
-      ├─ docker compose up -d --build
-      └─ docker image prune -f
+      ├─ checkout 代码
+      ├─ npm ci
+      ├─ npm run docs:build
+      └─ rsync dist/ → 服务器 /var/www/suirenai-docs/
 ```
+
+### 配置步骤
+
+#### 1. 服务器准备
+
+```bash
+# 安装 Nginx
+apt install -y nginx
+
+# 创建站点目录
+mkdir -p /var/www/suirenai-docs
+
+# 配置 Nginx（参考上方手动部署的 Nginx 配置）
+```
+
+#### 2. 生成 SSH 密钥（本地执行）
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "github-deploy" -f ~/.ssh/github_deploy -N ""
+
+# 将公钥上传到服务器
+ssh-copy-id -i ~/.ssh/github_deploy.pub root@<服务器IP>
+
+# 查看私钥内容（下一步要用）
+cat ~/.ssh/github_deploy
+```
+
+#### 3. 在 GitHub 仓库添加 Secrets
+
+进入仓库 → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**：
+
+| Secret 名 | 说明 | 示例值 |
+|---|---|---|
+| `SERVER_HOST` | 服务器 IP 或域名 | `192.168.1.100` |
+| `SERVER_USER` | SSH 登录用户名 | `root` |
+| `SERVER_SSH_KEY` | 上一步生成的私钥完整内容 | `-----BEGIN RSA PRIVATE KEY-----...` |
+| `SERVER_PATH` | 静态文件存放路径 | `/var/www/suirenai-docs` |
+
+#### 4. 触发部署
+
+配置完成后，每次推送即自动部署：
+
+```bash
+git add .
+git commit -m "update docs"
+git push
+```
+
+#### 5. 查看部署日志
+
+仓库页面 → **Actions** 标签页，点击对应的 workflow 查看每一步日志。
 
 ---
 
-## 反向代理配置（可选）
-
-如果服务器已有 Nginx 做反向代理，可将容器端口改为仅本机监听：
-
-**docker-compose.yml**
-
-```yaml
-services:
-  docs:
-    build: .
-    container_name: suirenai-docs
-    restart: unless-stopped
-    expose:
-      - "80"
-```
-
-**Nginx 反代配置**
+## 反向代理 + HTTPS（可选）
 
 ```nginx
 server {
@@ -185,11 +153,23 @@ server {
     ssl_certificate     /path/to/cert.pem;
     ssl_certificate_key /path/to/key.pem;
 
-    location / {
-        proxy_pass http://suirenai-docs:80;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    root /var/www/suirenai-docs;
+    index index.html;
+
+    location ~* \.(js|css|png|jpg|ico|svg|woff2?)$ {
+        expires 30d;
+        add_header Cache-Control "public, immutable";
     }
+
+    location / {
+        try_files $uri $uri/ $uri.html /index.html;
+    }
+}
+
+# HTTP 重定向到 HTTPS
+server {
+    listen 80;
+    server_name docs.suirenai.com;
+    return 301 https://$host$request_uri;
 }
 ```

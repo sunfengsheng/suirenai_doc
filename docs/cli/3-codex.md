@@ -41,7 +41,7 @@ model_verbosity = "high"
 web_search_request = true
 
 [model_providers.suirenai]
-base_url = "https://suirenai.limuran.top/v1"
+base_url = "https://api.suirenai.com/v1"
 name = "suirenai"
 requires_openai_auth = true
 wire_api = "responses"
@@ -108,7 +108,7 @@ model_verbosity = "high"
 
 [model_providers.suirenai]
 name = "suirenai"
-base_url = "https://suirenai.limuran.top/v1"
+base_url = "https://api.suirenai.com/v1"
 wire_api = "responses"
 requires_openai_auth = true
 ```

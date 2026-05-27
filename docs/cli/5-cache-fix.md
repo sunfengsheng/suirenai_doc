@@ -75,9 +75,9 @@ Claude Code 与 WSL 代理混在一起使用，否则很容易出现路径、环
 让 AI 按你的机器生成命令。
 
 可以直接使用下面这段提示词：
-    
-    
-    请根据 https://github.com/cnighswonger/claude-code-cache-fix 的最新 README，
+
+```
+请根据 https://github.com/cnighswonger/claude-code-cache-fix 的最新 README，
     帮我在当前系统中配置 Claude Code 缓存优化代理。
     要求：
     1. 我使用 Suirenai，upstream 必须是 https://api.suirenai.com
@@ -86,19 +86,16 @@ Claude Code 与 WSL 代理混在一起使用，否则很容易出现路径、环
     4. Windows 用户请按 WSL Linux 环境来配置，不要使用 Windows 原生 CMD / PowerShell
     5. 给出验证代理健康状态和 Claude Code 回复是否正常的命令
     6. 长期使用时，请给出适合当前系统的后台服务配置方式
+```
 
 ## 最小验证流程
 
 下面的命令适合在 Linux / macOS / WSL 中先验证代理是否能跑通：
-    
-    
-    npm install -g claude-code-cache-fix
-    CACHE_FIX_PROXY_UPSTREAM=https://api.suirenai.com cache-fix-proxy server
 
-如果你使用的是优化线路 Endpoint，可以把 `CACHE_FIX_PROXY_UPSTREAM` 改成：
-    
-    
-    https://api.suirenai.com
+```bash
+npm install -g claude-code-cache-fix
+CACHE_FIX_PROXY_UPSTREAM=https://api.suirenai.com cache-fix-proxy server
+```
 
 ## 配置 Claude Code
 

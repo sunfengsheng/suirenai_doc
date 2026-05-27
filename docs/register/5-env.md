@@ -8,9 +8,9 @@
 ## 检查 Node.js 环境
 
 在 Windows、macOS 或 Linux 终端中执行：
-    
-    
-    npm list -g --depth-0
+```bash
+npm list -g --depth-0
+```
 
 如果命令可以正常执行，说明 Node.js 与 npm 已经可用。即使输出中没有安装任何全局包，也不影响后续配置。
 

@@ -90,7 +90,7 @@ MacOS
 
 ![](https://docs.packyapi.com/assets/image/Advanced/ClaudeDesktop/11.webp)
 
-  2. 在Gateway base URL填入 `https://www.suirenai.com`，Gateway API key请填入生成的 CC分组 的APIKEY。并打开最下方 `Skip login-mode chooser` 选项
+  2. 在Gateway base URL填入 `https://api.suirenai.com`，Gateway API key请填入生成的 CC分组 的APIKEY。并打开最下方 `Skip login-mode chooser` 选项
 
 ![](https://docs.packyapi.com/assets/image/Advanced/ClaudeDesktop/12.webp)
 
