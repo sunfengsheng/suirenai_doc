@@ -30,7 +30,7 @@ Windows
 
 ![](https://docs.packyapi.com/assets/image/Cli/021.webp)
 
-  3. 回顾 [创建API令牌]/register/4-token)，在 Suirenai 中创建 **Gemini** 分组密钥，并复制ApiKey后填入 `xxx`
+  3. 回顾 [创建API令牌](/register/4-token)，在 Suirenai 中创建 **Gemini** 分组密钥，并复制ApiKey后填入 `xxx`
 
 ![](/images/Cli/026.png)
 
@@ -61,7 +61,7 @@ MacOS
     GEMINI_API_KEY=xxx
     GEMINI_MODEL=gemini-2.5-pro
 
-  3. 回顾 [创建API令牌]/register/4-token)，在 Suirenai 中创建 **Gemini** 分组密钥，填入 `xxx`
+  3. 回顾 [创建API令牌](/register/4-token)，在 Suirenai 中创建 **Gemini** 分组密钥，填入 `xxx`
 
 ![](/images/Cli/026.png)
 

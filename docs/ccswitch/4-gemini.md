@@ -15,7 +15,7 @@
 
 ![](https://docs.packyapi.com/assets/image/CC-Switch/013.webp)
 
-  4. 回顾 [创建API令牌]/register/4-token)，在 Suirenai 中创建 **Gemini** 分组的 API 密钥，点击复制按钮，复制ApiKey到剪切板
+  4. 回顾 [创建API令牌](/register/4-token)，在 Suirenai 中创建 **Gemini** 分组的 API 密钥，点击复制按钮，复制ApiKey到剪切板
 
 ![](/images/Cli/026.png)
 

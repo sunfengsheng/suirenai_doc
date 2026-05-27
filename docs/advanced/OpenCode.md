@@ -30,7 +30,7 @@
 
 ![](https://docs.packyapi.com/assets/image/Advanced/OpenCode/02.webp)
 
-  3. 查看 [CC Switch下载]/ccswitch/1-common) 一节的内容，下载并安装 CC-Switch 到本地，安装并打开软件
+  3. 查看 [CC Switch下载](/ccswitch/1-common) 一节的内容，下载并安装 CC-Switch 到本地，安装并打开软件
 
   4. 上方配置项选择到 `OpenCode` ，然后点击 `添加供应商` 按钮
 
@@ -45,7 +45,7 @@
        * Claude系列模型：`Anthropic`
        * Codex系列模型：`OpenAI`
        * Gemini系列模型：`Google (Gemini)`
-     * 在 `API Key` 中填入 [创建API令牌]/register/4-token) 一节中你创建的Key
+     * 在 `API Key` 中填入 [创建API令牌](/register/4-token) 一节中你创建的Key
 
 重要
 
@@ -60,7 +60,7 @@
 **请您创建正确分组的APIKEY后填入**
 
      * 在 `额外选项` 中配置键值对 `{"setCacheKey":true}`
-     * 在 `模型配置` 中配置ApiKey对应分组下正确的模型名，每个分组下的模型可在 [密钥分组介绍]/token/2-token) 一节中查询。  
+     * 在 `模型配置` 中配置ApiKey对应分组下正确的模型名，每个分组下的模型可在 [密钥分组介绍](/token/2-token) 一节中查询。  
 **比如现在我的ApiKey对应的是Codex分组，那么我可以直接配置：**
        * 模型ID：gpt-5.2 显示名称：gpt-5.2
        * 模型ID：gpt-5.2-codex 显示名称：gpt-5.2-codex

@@ -80,7 +80,7 @@ Packy专门为OpenClaw配置写了一个配置脚本，Github地址为：[opencl
 
 ![](https://docs.packyapi.com/assets/image/Advanced/OpenClaw/12.webp)
 
-  4. 输入 [创建API令牌]/register/4-token) 一节中你创建的相关分组的 API 密钥，复制后填入
+  4. 输入 [创建API令牌](/register/4-token) 一节中你创建的相关分组的 API 密钥，复制后填入
 
 
 提示

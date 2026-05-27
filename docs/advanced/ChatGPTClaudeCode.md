@@ -13,13 +13,13 @@
 
 ## 前置准备
 
-本教程用于将 **codex** 分组中的 GPT 模型接入 **Claude Code** 使用。开始前请先确认本地已经完成 Claude Code 安装；如果还没有安装，可以先参考 [Claude Code配置]/cli/2-claude) 中的安装与基础配置步骤。
+本教程用于将 **codex** 分组中的 GPT 模型接入 **Claude Code** 使用。开始前请先确认本地已经完成 Claude Code 安装；如果还没有安装，可以先参考 [Claude Code配置](/cli/2-claude) 中的安装与基础配置步骤。
 
 同时，请确认本地已经安装并打开 CC Switch。该方案必须依赖 CC Switch 的本地路由能力，不能只通过普通供应商配置完成。
 
 ## 创建 codex 令牌
 
-  1. 回顾 [创建 API 令牌]/register/4-token)，在 Suirenai 中创建新的 API 令牌。
+  1. 回顾 [创建 API 令牌](/register/4-token)，在 Suirenai 中创建新的 API 令牌。
 
   2. 名称可以填写 `codex`，密钥分组请选择 `codex`。创建完成后，复制生成的 API Key，后续配置会用到。
 

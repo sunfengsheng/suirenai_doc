@@ -42,7 +42,7 @@ Gemini CLI 目前存在多种使用问题，例如可能无法正常调用模型
   
 #### 1\. 创建 Gemini 分组密钥
 
-按照 [创建 API 令牌]/register/4-token) 一章提到的方法，创建如下图中 `gemini` 分组的 API 密钥：
+按照 [创建 API 令牌](/register/4-token) 一章提到的方法，创建如下图中 `gemini` 分组的 API 密钥：
 
 ![创建 API 选择分组示意图](https://docs.packyapi.com/assets/image/FAQ/Gemini/002.webp)创建 API 选择分组示意图
 

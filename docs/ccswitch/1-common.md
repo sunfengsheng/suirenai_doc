@@ -15,7 +15,7 @@
 
 [![farion1231%2Fcc-switch | Trendshift](https://trendshift.io/api/badge/repositories/15372)](https://trendshift.io/repositories/15372)
 
-[更新日志]/ccswitch/CHANGELOG) | [下载地址](https://github.com/farion1231/cc-switch/releases/latest)
+[更新日志](/ccswitch/CHANGELOG) | [下载地址](https://github.com/farion1231/cc-switch/releases/latest)
 
 **从供应商切换器到 AI CLI 一体化管理平台**
 
@@ -92,6 +92,6 @@ Debian/Ubuntu 系统：
 **请你最好进行此步的环境检查步骤！！！**  
 如果你有经验，能确认你的Nodejs环境以及cc、codex、gemini的cli安装没问题，配置目录也都存在，可以忽略这一步，直接进入后续的CC Switch配置
 
-点击右侧传送门查看 [如何进行环境检查？]/cli/1-env)
+点击右侧传送门查看 [如何进行环境检查？](/cli/1-env)
 
 

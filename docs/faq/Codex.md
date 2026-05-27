@@ -155,7 +155,7 @@ MacOS
 
 ### Codex如何配置全局提示词
 
-  1. 请你查看 [Codex CLI 配置]/cli/3-codex) 中的前两步
+  1. 请你查看 [Codex CLI 配置](/cli/3-codex) 中的前两步
 
   2. 教程中提到的`AGENTS.md`文件就是Codex的全局提示词文件，如果没有这个文件，你同样需要手动创建这个文件，然后写入提示词
 
@@ -164,7 +164,7 @@ MacOS
 
 ### Codex开启内置网络搜索
 
-  1. 请你查看 [Codex CLI 配置]/cli/3-codex) 中的前两步
+  1. 请你查看 [Codex CLI 配置](/cli/3-codex) 中的前两步
 
   2. 打开教程中提到的`config.toml`文件，在里面加入以下内容
 
@@ -266,7 +266,7 @@ macOS
     
     unset OPENAI_API_KEY OPENAI_BASE_URL
 
-  2. 查看 [Codex在CLI中的配置]/cli/3-codex) 一章
+  2. 查看 [Codex在CLI中的配置](/cli/3-codex) 一章
 
 
 重要

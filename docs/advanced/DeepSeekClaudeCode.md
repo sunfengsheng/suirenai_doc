@@ -5,11 +5,11 @@
 
 ## 前置准备
 
-本教程用于将 **DeepSeek** 分组接入 **Claude Code** 使用。开始前请先确认本地已经完成 Claude Code 安装；如果还没有安装，可以先参考 [Claude Code配置]/cli/2-claude) 中的安装与基础配置步骤。
+本教程用于将 **DeepSeek** 分组接入 **Claude Code** 使用。开始前请先确认本地已经完成 Claude Code 安装；如果还没有安装，可以先参考 [Claude Code配置](/cli/2-claude) 中的安装与基础配置步骤。
 
 ## 创建 DeepSeek 令牌
 
-  1. 回顾 [创建 API 令牌]/register/4-token)，在 Suirenai 中创建新的 API 令牌。
+  1. 回顾 [创建 API 令牌](/register/4-token)，在 Suirenai 中创建新的 API 令牌。
 
   2. 名称可以填写 `deepseek-officially`，密钥分组请选择 `deepseek-officially`。创建完成后，复制生成的 API Key，后续配置会用到。
 
