@@ -1,4 +1,4 @@
-# CC-Switch 配置
+# CC-Switch 下载
 
 ## 安装 CC-Switch
 
