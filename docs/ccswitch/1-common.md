@@ -35,32 +35,3 @@ brew upgrade --cask cc-switch
 **Windows 用户：**
 
 从 [Releases 页面](https://forward.apiapi.site/https://github.com/farion1231/cc-switch/releases/latest) 下载最新版本的 `CC-Switch-v{版本号}-Windows.msi` 安装包或 `CC-Switch-v{版本号}-Windows-Portable.zip` 绿色版。
-
-## 快速开始
-
-**1.** 点击右上角 **+** 号图标，添加新供应商：点击"添加供应商" → 选择"Claude 供应商" → 选择创建自定义配置。
-
-**2.** 填写以下配置信息后，点击保存，并在主界面启用新创建的供应商。
-
-| 配置 | 值 |
-|---|---|
-| 请求地址 | `https://api.suirenai.com` |
-| API Key | 在 Suirenai 中创建的 **CC 分组** API 密钥 |
-| 主模型 | `claude-sonnet-4-5` |
-| Haiku 默认模型 | `claude-haiku-4-5` |
-| Opus 默认模型 | `claude-opus-4-5` |
-
-配置好后，可以在 Claude Code 配置目录的 `settings.json` 中看到如下配置信息：
-
-```json
-{
-  "env": {
-    "ANTHROPIC_BASE_URL": "https://api.suirenai.com",
-    "ANTHROPIC_AUTH_TOKEN": "your-api-key"
-  }
-}
-```
-
-**3.** 打开终端，进入项目目录，输入 `claude` 启动 Claude Code。
-
-若启动后仍要求登录，可在 CC-Switch 中开启"跳过 Claude Code 初次安装确认"：点击"设置" → "通用" → "窗口行为" → "跳过 Claude Code 初次安装确认"。
