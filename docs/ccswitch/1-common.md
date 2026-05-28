@@ -7,15 +7,15 @@
 
 ### Claude Code / Codex / Gemini CLI 全方位辅助工具
 
-[![Version](https://img.shields.io/badge/version-3.7.1-blue.svg)](https://github.lius.me/farion1231/cc-switch/releases)  
-[![Trending](https://img.shields.io/badge/🔥_TypeScript_Trending-Daily | Weekly | Monthly-ff6b6b.svg)](https://github.lius.me/trending/typescript)  
-[![Platform](https://img.shields.io/badge/platform-Windows | macOS | Linux-lightgrey.svg)](https://github.lius.me/farion1231/cc-switch/releases)  
+[![Version](https://img.shields.io/badge/version-3.7.1-blue.svg)](https://github.com/farion1231/cc-switch/releases)  
+[![Trending](https://img.shields.io/badge/🔥_TypeScript_Trending-Daily | Weekly | Monthly-ff6b6b.svg)](https://github.com/trending/typescript)  
+[![Platform](https://img.shields.io/badge/platform-Windows | macOS | Linux-lightgrey.svg)](https://github.com/farion1231/cc-switch/releases)  
 [![Built with Tauri](https://img.shields.io/badge/built with-Tauri 2-orange.svg)](https://tauri.app/)  
-[![Downloads](https://img.shields.io/endpoint?url=https://api.pinstudios.net/api/badges/downloads/farion1231/cc-switch/total)](https://github.lius.me/farion1231/cc-switch/releases/latest)
+[![Downloads](https://img.shields.io/endpoint?url=https://api.pinstudios.net/api/badges/downloads/farion1231/cc-switch/total)](https://github.com/farion1231/cc-switch/releases/latest)
 
 [![farion1231%2Fcc-switch | Trendshift](https://trendshift.io/api/badge/repositories/15372)](https://trendshift.io/repositories/15372)
 
-[更新日志](/ccswitch/CHANGELOG) | [下载地址](https://github.lius.me/farion1231/cc-switch/releases/latest)
+[更新日志](/ccswitch/CHANGELOG) | [下载地址](https://github.com/farion1231/cc-switch/releases/latest)
 
 **从供应商切换器到 AI CLI 一体化管理平台**
 
@@ -40,7 +40,7 @@ WindowsMacOSLinux
 
 Windows
 
-  1. 点击下载链接→[传送门](https://github.lius.me/farion1231/cc-switch/releases/latest)←，进入CC-Switch的Github Release页面
+  1. 点击下载链接→[传送门](https://github.com/farion1231/cc-switch/releases/latest)←，进入CC-Switch的Github Release页面
 
   2. 鼠标滚动到最下方选择适合自己版本的安装包，windows系统推荐下载普通msi后缀的安装包进行安装
 
@@ -74,13 +74,13 @@ Linux
 
 重要
 
-以下命令中的文件名包含占位符版本号 x.x.x，请访问[GitHub Releases](https://github.lius.me/farion1231/cc-switch/releases/latest) 页面查看最新版本，并替换为实际的版本号和完整文件名。
+以下命令中的文件名包含占位符版本号 x.x.x，请访问[GitHub Releases](https://github.com/farion1231/cc-switch/releases/latest) 页面查看最新版本，并替换为实际的版本号和完整文件名。
 
 Debian/Ubuntu 系统：
     
     
     # 下载 .deb 包
-    wget https://github.lius.me/farion1231/cc-switch/releases/latest/download/cc-switch_x.x.x_amd64.deb
+    wget https://github.com/farion1231/cc-switch/releases/latest/download/cc-switch_x.x.x_amd64.deb
     
     # 安装
     sudo dpkg -i cc-switch_x.x.x_amd64.deb
