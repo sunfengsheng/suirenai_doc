@@ -9,8 +9,8 @@
 
 #  CC-Switch CLI
 
-[![Version](https://img.shields.io/badge/version-4.7.2-blue.svg)](https://github.com/saladday/cc-switch-cli/releases)  
-[![Platform](https://img.shields.io/badge/platform-Windows | macOS | Linux-lightgrey.svg)](https://github.com/saladday/cc-switch-cli/releases)  
+[![Version](https://img.shields.io/badge/version-4.7.2-blue.svg)](https://github.lius.me/saladday/cc-switch-cli/releases)  
+[![Platform](https://img.shields.io/badge/platform-Windows | macOS | Linux-lightgrey.svg)](https://github.lius.me/saladday/cc-switch-cli/releases)  
 [![Built with Rust](https://img.shields.io/badge/built with-Rust-orange.svg)](https://www.rust-lang.org/)  
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
@@ -30,7 +30,7 @@ MacOS
     
     
     # 下载 Universal Binary（推荐，支持 Apple Silicon + Intel）
-    curl -LO https://github.com/saladday/cc-switch-cli/releases/latest/download/cc-switch-cli-darwin-universal.tar.gz
+    curl -LO https://github.lius.me/saladday/cc-switch-cli/releases/latest/download/cc-switch-cli-darwin-universal.tar.gz
     
     # 解压
     tar -xzf cc-switch-cli-darwin-universal.tar.gz
@@ -48,7 +48,7 @@ Linux (x64)
     
     
     # 下载
-    curl -LO https://github.com/saladday/cc-switch-cli/releases/latest/download/cc-switch-cli-linux-x64-musl.tar.gz
+    curl -LO https://github.lius.me/saladday/cc-switch-cli/releases/latest/download/cc-switch-cli-linux-x64-musl.tar.gz
     
     # 解压
     tar -xzf cc-switch-cli-linux-x64-musl.tar.gz
@@ -63,7 +63,7 @@ Linux (ARM64)
     
     
     # 适用于树莓派或 ARM 服务器
-    curl -LO https://github.com/saladday/cc-switch-cli/releases/latest/download/cc-switch-cli-linux-arm64-musl.tar.gz
+    curl -LO https://github.lius.me/saladday/cc-switch-cli/releases/latest/download/cc-switch-cli-linux-arm64-musl.tar.gz
     tar -xzf cc-switch-cli-linux-arm64-musl.tar.gz
     chmod +x cc-switch
     sudo mv cc-switch /usr/local/bin/
@@ -72,7 +72,7 @@ Windows
     
     
     # 下载 zip 文件
-    # https://github.com/saladday/cc-switch-cli/releases/latest/download/cc-switch-cli-windows-x64.zip
+    # https://github.lius.me/saladday/cc-switch-cli/releases/latest/download/cc-switch-cli-windows-x64.zip
     
     # 解压后将 cc-switch.exe 移动到 PATH 目录，例如：
     move cc-switch.exe C:\Windows\System32\

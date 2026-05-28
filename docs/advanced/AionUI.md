@@ -9,9 +9,9 @@
 
 ### Cowork with Your CLI AI Agent
 
-[![Version](https://img.shields.io/github/v/release/iOfficeAI/AionUi?style=flat-square&color=32CD32)](https://github.com/iOfficeAI/AionUi/releases)  
-[![License](https://img.shields.io/badge/license-Apache--2.0-32CD32?style=flat-square&logo=apache&logoColor=white)](https://github.com/iOfficeAI/AionUi/blob/main/LICENSE)  
-[![Platform](https://img.shields.io/badge/platform-macOS | Windows | Linux-6C757D?style=flat-square&logo=linux&logoColor=white)](https://github.com/iOfficeAI/AionUi/releases)
+[![Version](https://img.shields.io/github/v/release/iOfficeAI/AionUi?style=flat-square&color=32CD32)](https://github.lius.me/iOfficeAI/AionUi/releases)  
+[![License](https://img.shields.io/badge/license-Apache--2.0-32CD32?style=flat-square&logo=apache&logoColor=white)](https://github.lius.me/iOfficeAI/AionUi/blob/main/LICENSE)  
+[![Platform](https://img.shields.io/badge/platform-macOS | Windows | Linux-6C757D?style=flat-square&logo=linux&logoColor=white)](https://github.lius.me/iOfficeAI/AionUi/releases)
 
 [![iOfficeAI%2FAionUi | Trendshift](https://trendshift.io/api/badge/repositories/15423)](https://trendshift.io/repositories/15423)
 
@@ -19,17 +19,17 @@
   
 **任何用户友好 | 可视的图形化界面 | 多模型支持 | 本地数据安全**
 
-[![下载最新版本](https://img.shields.io/badge/⬇️ 立即下载-最新版本-32CD32?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iOfficeAI/AionUi/releases)
+[![下载最新版本](https://img.shields.io/badge/⬇️ 立即下载-最新版本-32CD32?style=for-the-badge&logo=github&logoColor=white)](https://github.lius.me/iOfficeAI/AionUi/releases)
 
 **使用 AionUi，您可以拥有：**
 
-  * ✅ **统一图形界面** \- 自动识别本地 CLI 工具，提供统一的图形界面，告别命令行 → [多代理模式设置](https://github.com/iOfficeAI/AionUi/wiki/ACP-Setup-Chinese)
+  * ✅ **统一图形界面** \- 自动识别本地 CLI 工具，提供统一的图形界面，告别命令行 → [多代理模式设置](https://github.lius.me/iOfficeAI/AionUi/wiki/ACP-Setup-Chinese)
   * ✅ **多会话并行** \- 同时开启多个对话，每个会话独立上下文，互不干扰
   * ✅ **本地数据安全** \- 所有对话和文件保存在本地 SQLite 数据库，数据不离开您的设备
   * ✅ **9+ 种格式预览** \- PDF、Word、Excel、PPT、代码、Markdown、图片、HTML、Diff 等即时预览
-  * ✅ **智能文件管理** \- AI 驱动的文件整理、批量重命名、自动分类 → [文件管理详细教程](https://github.com/iOfficeAI/AionUi/wiki/file-management)
-  * ✅ **AI 图像生成** \- 支持多种图像生成模型，智能图像编辑和识别 → [图像生成模型配置指南](https://github.com/iOfficeAI/AionUi/wiki/AionUi-Image-Generation-Tool-Model-Configuration-Guide-Chinese)
-  * ✅ **WebUI 远程访问** \- 从任何设备通过浏览器访问，支持移动端 → [WebUI 配置教程](https://github.com/iOfficeAI/AionUi/wiki/WebUI-Configuration-Guide-Chinese)
+  * ✅ **智能文件管理** \- AI 驱动的文件整理、批量重命名、自动分类 → [文件管理详细教程](https://github.lius.me/iOfficeAI/AionUi/wiki/file-management)
+  * ✅ **AI 图像生成** \- 支持多种图像生成模型，智能图像编辑和识别 → [图像生成模型配置指南](https://github.lius.me/iOfficeAI/AionUi/wiki/AionUi-Image-Generation-Tool-Model-Configuration-Guide-Chinese)
+  * ✅ **WebUI 远程访问** \- 从任何设备通过浏览器访问，支持移动端 → [WebUI 配置教程](https://github.lius.me/iOfficeAI/AionUi/wiki/WebUI-Configuration-Guide-Chinese)
   * ✅ **多模型切换** \- 灵活切换 Gemini、Claude、OpenAI、Qwen、Ollama 等主流模型
   * ✅ **完全免费开源** \- Apache-2.0 许可证，完全免费使用
 
@@ -44,7 +44,7 @@ WindowsMacOSLinux
 
 Windows
 
-  1. 访问 [GitHub Releases](https://github.com/iOfficeAI/AionUi/releases) 页面
+  1. 访问 [GitHub Releases](https://github.lius.me/iOfficeAI/AionUi/releases) 页面
   2. 下载适合 Windows 的安装包（`.exe` 文件）
   3. 运行安装程序，按照提示完成安装
 
@@ -58,7 +58,7 @@ MacOS
 
 #### 
 
-  1. 访问 [GitHub Releases](https://github.com/iOfficeAI/AionUi/releases) 页面
+  1. 访问 [GitHub Releases](https://github.lius.me/iOfficeAI/AionUi/releases) 页面
   2. 下载适合 macOS 的安装包（`.dmg` 或 `.zip` 文件，支持 Intel 和 Apple Silicon）
   3. 运行安装程序，按照提示完成安装
 
@@ -67,16 +67,16 @@ Linux
     
     
     # 下载 .deb 包（请访问 GitHub Releases 查看最新版本号）
-    wget https://github.com/iOfficeAI/AionUi/releases/latest/download/AionUi-x.x.x-linux-amd64.deb
+    wget https://github.lius.me/iOfficeAI/AionUi/releases/latest/download/AionUi-x.x.x-linux-amd64.deb
     
     # 安装
     sudo dpkg -i AionUi-x.x.x-linux-amd64.deb
 
-请访问 [GitHub Releases](https://github.com/iOfficeAI/AionUi/releases) 页面查看最新版本号，将命令中的 `x.x.x` 替换为实际版本号（例如 `1.7.3`）。
+请访问 [GitHub Releases](https://github.lius.me/iOfficeAI/AionUi/releases) 页面查看最新版本号，将命令中的 `x.x.x` 替换为实际版本号（例如 `1.7.3`）。
 
 #### 
 
-访问 [GitHub Releases](https://github.com/iOfficeAI/AionUi/releases) 页面下载适合您系统的安装包（`.AppImage` 或 `.deb` 文件）。
+访问 [GitHub Releases](https://github.lius.me/iOfficeAI/AionUi/releases) 页面下载适合您系统的安装包（`.AppImage` 或 `.deb` 文件）。
 
 * * *
 
@@ -150,7 +150,7 @@ Codex
 
 ## 常见问题
 
-  * [❓ FAQ 常见问题](https://github.com/iOfficeAI/AionUi/wiki/FAQ-Chinese) \- 问题解答和故障排除
-  * [🔧 配置与使用教程](https://github.com/iOfficeAI/AionUi/wiki/Configuration-Guides-Chinese) \- 完整配置文档
+  * [❓ FAQ 常见问题](https://github.lius.me/iOfficeAI/AionUi/wiki/FAQ-Chinese) \- 问题解答和故障排除
+  * [🔧 配置与使用教程](https://github.lius.me/iOfficeAI/AionUi/wiki/Configuration-Guides-Chinese) \- 完整配置文档
 
 

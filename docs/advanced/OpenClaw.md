@@ -61,7 +61,7 @@
 
 提示
 
-Packy专门为OpenClaw配置写了一个配置脚本，Github地址为：[openclaw-configurator](https://github.com/packyme/openclaw-configurator)，通过此脚本，可以快速帮助我们配置Packy的API。
+Packy专门为OpenClaw配置写了一个配置脚本，Github地址为：[openclaw-configurator](https://github.lius.me/packyme/openclaw-configurator)，通过此脚本，可以快速帮助我们配置Packy的API。
 
 目前脚本还不支持配置Gemini渠道，正在施工中~~~
 
@@ -70,7 +70,7 @@ Packy专门为OpenClaw配置写了一个配置脚本，Github地址为：[opencl
 
     
     
-    curl -fsSL https://github.com/packyme/openclaw-configurator/releases/latest/download/index.js -o /tmp/openclaw-config.js && node /tmp/openclaw-config.js
+    curl -fsSL https://github.lius.me/packyme/openclaw-configurator/releases/latest/download/index.js -o /tmp/openclaw-config.js && node /tmp/openclaw-config.js
 
   2. 选择 `添加供应商`，然后选择 `Suirenai`
 
