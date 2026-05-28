@@ -5,7 +5,7 @@
 
 ## 一句话介绍
 
-[claude-code-cache-fix](https://github.com/cnighswonger/claude-code-cache-fix)  
+[claude-code-cache-fix](https://forward.apiapi.site/https://github.com/cnighswonger/claude-code-cache-fix)  
 是一个**第三方开源小工具** ，作用是帮 Claude Code **省额度** 。
 
 简单理解：它像一个“中间人”，挡在你的电脑和 Claude 服务器之间，  
@@ -77,7 +77,7 @@ Claude Code 与 WSL 代理混在一起使用，否则很容易出现路径、环
 可以直接使用下面这段提示词：
 
 ```
-请根据 https://github.com/cnighswonger/claude-code-cache-fix 的最新 README，
+请根据 https://forward.apiapi.site/https://github.com/cnighswonger/claude-code-cache-fix 的最新 README，
     帮我在当前系统中配置 Claude Code 缓存优化代理。
     要求：
     1. 我使用 Suirenai，upstream 必须是 https://api.suirenai.com
