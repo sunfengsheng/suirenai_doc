@@ -16,8 +16,6 @@ export default defineConfig({
 
     nav: [
       { text: '快速开始', link: '/register/1-register' },
-      { text: 'CLI 配置', link: '/cli/1-env' },
-      { text: 'CC-Switch', link: '/ccswitch/1-common' },
       { text: 'FAQ', link: '/faq/CC' },
       {
         text: '更多',
@@ -35,17 +33,51 @@ export default defineConfig({
             { text: '注册账号', link: '/register/1-register' },
             { text: '购买额度', link: '/register/3-quota' },
             { text: '创建 API 密钥', link: '/register/4-token' },
-            { text: '环境检查', link: '/register/5-env' },
-            { text: '配置 CLI 工具', link: '/register/6-cli' },
+          ],
+        },
+        {
+          text: '第三方工具配置',
+          items: [
+            { text: 'Claude Code + CC-Switch 快速配置', link: '/ccswitch/1-common' },
+            { text: 'Codex 配置', link: '/ccswitch/3-codex' },
+            { text: 'Gemini 配置', link: '/ccswitch/4-gemini' },
+            { text: 'CC-Switch CLI', link: '/ccswitch/5-ccs_cli' },
+          ],
+        },
+        {
+          text: 'CLI 手动配置',
+          items: [
+            { text: '环境检查', link: '/cli/1-env' },
+            { text: 'Claude Code 配置', link: '/cli/2-claude' },
+            { text: 'Codex 配置', link: '/cli/3-codex' },
+            { text: 'Gemini 配置', link: '/cli/4-gemini' },
+            { text: 'Claude Code 缓存优化', link: '/cli/5-cache-fix' },
           ],
         },
       ],
 
       '/cli/': [
         {
+          text: '快速开始',
+          items: [
+            { text: '注册账号', link: '/register/1-register' },
+            { text: '购买额度', link: '/register/3-quota' },
+            { text: '创建 API 密钥', link: '/register/4-token' },
+          ],
+        },
+        {
+          text: '第三方工具配置',
+          items: [
+            { text: 'Claude Code + CC-Switch 快速配置', link: '/ccswitch/1-common' },
+            { text: 'Codex 配置', link: '/ccswitch/3-codex' },
+            { text: 'Gemini 配置', link: '/ccswitch/4-gemini' },
+            { text: 'CC-Switch CLI', link: '/ccswitch/5-ccs_cli' },
+          ],
+        },
+        {
           text: 'CLI 手动配置',
           items: [
-            { text: '环境检查（通用步骤）', link: '/cli/1-env' },
+            { text: '环境检查', link: '/cli/1-env' },
             { text: 'Claude Code 配置', link: '/cli/2-claude' },
             { text: 'Codex 配置', link: '/cli/3-codex' },
             { text: 'Gemini 配置', link: '/cli/4-gemini' },
@@ -56,13 +88,30 @@ export default defineConfig({
 
       '/ccswitch/': [
         {
-          text: 'CC-Switch',
+          text: '快速开始',
           items: [
-            { text: '通用步骤', link: '/ccswitch/1-common' },
-            { text: 'Claude Code 配置', link: '/ccswitch/2-claude' },
+            { text: '注册账号', link: '/register/1-register' },
+            { text: '购买额度', link: '/register/3-quota' },
+            { text: '创建 API 密钥', link: '/register/4-token' },
+          ],
+        },
+        {
+          text: '第三方工具配置',
+          items: [
+            { text: 'Claude Code + CC-Switch 快速配置', link: '/ccswitch/1-common' },
             { text: 'Codex 配置', link: '/ccswitch/3-codex' },
             { text: 'Gemini 配置', link: '/ccswitch/4-gemini' },
             { text: 'CC-Switch CLI', link: '/ccswitch/5-ccs_cli' },
+          ],
+        },
+        {
+          text: 'CLI 手动配置',
+          items: [
+            { text: '环境检查', link: '/cli/1-env' },
+            { text: 'Claude Code 配置', link: '/cli/2-claude' },
+            { text: 'Codex 配置', link: '/cli/3-codex' },
+            { text: 'Gemini 配置', link: '/cli/4-gemini' },
+            { text: 'Claude Code 缓存优化', link: '/cli/5-cache-fix' },
           ],
         },
       ],

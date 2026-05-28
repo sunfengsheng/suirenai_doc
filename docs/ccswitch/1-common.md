@@ -1,97 +1,88 @@
-# 通用步骤
+# Claude Code + CC-Switch 快速配置
 
+## 安装 Claude Code
 
-* * *
+安装 Claude Code 可以参考官方文档：[https://code.claude.com/docs/zh-CN/overview](https://code.claude.com/docs/zh-CN/overview)
 
-### CC-Switch介绍
+**macOS / Linux / WSL：**
 
-### Claude Code / Codex / Gemini CLI 全方位辅助工具
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
 
-[![Version](https://img.shields.io/badge/version-3.7.1-blue.svg)](https://forward.apiapi.site/https://github.com/farion1231/cc-switch/releases)  
-[![Trending](https://img.shields.io/badge/🔥_TypeScript_Trending-Daily | Weekly | Monthly-ff6b6b.svg)](https://forward.apiapi.site/https://github.com/trending/typescript)  
-[![Platform](https://img.shields.io/badge/platform-Windows | macOS | Linux-lightgrey.svg)](https://forward.apiapi.site/https://github.com/farion1231/cc-switch/releases)  
-[![Built with Tauri](https://img.shields.io/badge/built with-Tauri 2-orange.svg)](https://tauri.app/)  
-[![Downloads](https://img.shields.io/endpoint?url=https://api.pinstudios.net/api/badges/downloads/farion1231/cc-switch/total)](https://forward.apiapi.site/https://github.com/farion1231/cc-switch/releases/latest)
+**Windows PowerShell：**
 
-[![farion1231%2Fcc-switch | Trendshift](https://trendshift.io/api/badge/repositories/15372)](https://trendshift.io/repositories/15372)
+```powershell
+irm https://claude.ai/install.ps1 | iex
+```
 
-[更新日志](/ccswitch/CHANGELOG) | [下载地址](https://forward.apiapi.site/https://github.com/farion1231/cc-switch/releases/latest)
+**Windows CMD：**
 
-**从供应商切换器到 AI CLI 一体化管理平台**
+```cmd
+curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
+```
 
-**统一管理 Claude Code、Codex 与 Gemini CLI 的供应商配置、MCP 服务器、Skills 扩展和系统提示词。**
+## 安装 CC-Switch
 
-使用 CC-Switch，您可以：
+安装 CC-Switch 可以参考文档：[README_ZH.md](https://forward.apiapi.site/https://github.com/farion1231/cc-switch/blob/main/README_ZH.md)
 
-  * ✅ 一键切换 API 配置 - 在多个 API 提供商之间快速切换
-  * ✅ 可视化配置管理 - 通过图形界面轻松管理所有配置
-  * ✅ 内置 Suirenai 模板 - 预设了 Suirenai 的配置模板
-  * ✅ MCP 服务器管理 - 管理 Model Context Protocol 服务器
-  * ✅ 系统托盘快捷操作 - 通过托盘菜单快速切换
+**Linux 用户：**
 
+从 [Releases 页面](https://forward.apiapi.site/https://github.com/farion1231/cc-switch/releases/latest) 下载最新版本的 Linux 安装包：
 
-温馨提示
+- `CC-Switch-v{版本号}-Linux.deb`（Debian/Ubuntu）
+- `CC-Switch-v{版本号}-Linux.rpm`（Fedora/RHEL/openSUSE）
+- `CC-Switch-v{版本号}-Linux.AppImage`（通用）
+- `CC-Switch-v{版本号}-Linux.flatpak`（Flatpak）
 
-CC-Switch 已经内置了 Suirenai 的快捷配置模板，无需手动编辑配置文件！
+**macOS 用户：**
 
-### 软件下载
+方式一：通过 Homebrew 安装
 
-WindowsMacOSLinux
+```bash
+brew tap farion1231/ccswitch
+brew install --cask cc-switch
+```
 
-Windows
+更新：
 
-  1. 点击下载链接→[传送门](https://forward.apiapi.site/https://github.com/farion1231/cc-switch/releases/latest)←，进入CC-Switch的Github Release页面
+```bash
+brew upgrade --cask cc-switch
+```
 
-  2. 鼠标滚动到最下方选择适合自己版本的安装包，windows系统推荐下载普通msi后缀的安装包进行安装
+方式二：手动下载
 
+从 [Releases 页面](https://forward.apiapi.site/https://github.com/farion1231/cc-switch/releases/latest) 下载 `CC-Switch-v{版本号}-macOS.zip` 解压使用。
 
-![](https://docs.packyapi.com/assets/image/CC-Switch/001.webp)
+**Windows 用户：**
 
-  3. 安装后运行CC-Switch主程序，界面如下。
+从 [Releases 页面](https://forward.apiapi.site/https://github.com/farion1231/cc-switch/releases/latest) 下载最新版本的 `CC-Switch-v{版本号}-Windows.msi` 安装包或 `CC-Switch-v{版本号}-Windows-Portable.zip` 绿色版。
 
-![](https://docs.packyapi.com/assets/image/CC-Switch/002.webp)
+## 快速开始
 
-MacOS
+**1.** 点击右上角 **+** 号图标，添加新供应商：点击"添加供应商" → 选择"Claude 供应商" → 选择创建自定义配置。
 
-  * MacOS安装推荐使用HomeBrew
+**2.** 填写以下配置信息后，点击保存，并在主界面启用新创建的供应商。
 
-  * 开启终端后，分别运行以下命令：
+| 配置 | 值 |
+|---|---|
+| 请求地址 | `https://api.suirenai.com` |
+| API Key | 在 Suirenai 中创建的 **CC 分组** API 密钥 |
+| 主模型 | `claude-sonnet-4-5` |
+| Haiku 默认模型 | `claude-haiku-4-5` |
+| Opus 默认模型 | `claude-opus-4-5` |
 
+配置好后，可以在 Claude Code 配置目录的 `settings.json` 中看到如下配置信息：
 
-    
-    
-    # 添加 tap 源
-    brew tap farion1231/ccswitch
-    
-    # 安装 CC-Switch
-    brew install --cask cc-switch
+```json
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://api.suirenai.com",
+    "ANTHROPIC_AUTH_TOKEN": "your-api-key"
+  }
+}
+```
 
-  * 安装完成后，在“启动台”或“应用程序”文件夹中找到 CC-Switch 并启动。
+**3.** 打开终端，进入项目目录，输入 `claude` 启动 Claude Code。
 
-![](https://docs.packyapi.com/assets/image/CC-Switch/002.webp)
-
-Linux
-
-重要
-
-以下命令中的文件名包含占位符版本号 x.x.x，请访问[GitHub Releases](https://forward.apiapi.site/https://github.com/farion1231/cc-switch/releases/latest) 页面查看最新版本，并替换为实际的版本号和完整文件名。
-
-Debian/Ubuntu 系统：
-    
-    
-    # 下载 .deb 包
-    wget https://forward.apiapi.site/https://github.com/farion1231/cc-switch/releases/latest/download/cc-switch_x.x.x_amd64.deb
-    
-    # 安装
-    sudo dpkg -i cc-switch_x.x.x_amd64.deb
-
-### 环境检查
-
-注意
-
-**请你最好进行此步的环境检查步骤！！！**  
-如果你有经验，能确认你的Nodejs环境以及cc、codex、gemini的cli安装没问题，配置目录也都存在，可以忽略这一步，直接进入后续的CC Switch配置
-
-点击右侧传送门查看 [如何进行环境检查？](/cli/1-env)
-
-
+若启动后仍要求登录，可在 CC-Switch 中开启"跳过 Claude Code 初次安装确认"：点击"设置" → "通用" → "窗口行为" → "跳过 Claude Code 初次安装确认"。
