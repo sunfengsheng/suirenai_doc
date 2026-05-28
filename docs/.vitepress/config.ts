@@ -44,16 +44,6 @@ export default defineConfig({
             { text: 'CC-Switch CLI', link: '/ccswitch/5-ccs_cli' },
           ],
         },
-        {
-          text: 'CLI 手动配置',
-          items: [
-            { text: '环境检查', link: '/cli/1-env' },
-            { text: 'Claude Code 配置', link: '/cli/2-claude' },
-            { text: 'Codex 配置', link: '/cli/3-codex' },
-            { text: 'Gemini 配置', link: '/cli/4-gemini' },
-            { text: 'Claude Code 缓存优化', link: '/cli/5-cache-fix' },
-          ],
-        },
       ],
 
       '/cli/': [
@@ -74,16 +64,6 @@ export default defineConfig({
             { text: 'CC-Switch CLI', link: '/ccswitch/5-ccs_cli' },
           ],
         },
-        {
-          text: 'CLI 手动配置',
-          items: [
-            { text: '环境检查', link: '/cli/1-env' },
-            { text: 'Claude Code 配置', link: '/cli/2-claude' },
-            { text: 'Codex 配置', link: '/cli/3-codex' },
-            { text: 'Gemini 配置', link: '/cli/4-gemini' },
-            { text: 'Claude Code 缓存优化', link: '/cli/5-cache-fix' },
-          ],
-        },
       ],
 
       '/ccswitch/': [
@@ -102,16 +82,6 @@ export default defineConfig({
             { text: 'Codex 配置', link: '/ccswitch/3-codex' },
             { text: 'Gemini 配置', link: '/ccswitch/4-gemini' },
             { text: 'CC-Switch CLI', link: '/ccswitch/5-ccs_cli' },
-          ],
-        },
-        {
-          text: 'CLI 手动配置',
-          items: [
-            { text: '环境检查', link: '/cli/1-env' },
-            { text: 'Claude Code 配置', link: '/cli/2-claude' },
-            { text: 'Codex 配置', link: '/cli/3-codex' },
-            { text: 'Gemini 配置', link: '/cli/4-gemini' },
-            { text: 'Claude Code 缓存优化', link: '/cli/5-cache-fix' },
           ],
         },
       ],
