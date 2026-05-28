@@ -1,4 +1,28 @@
-# Claude Code配置
+# Claude Code 配置
+
+## 安装 Claude Code
+
+安装 Claude Code 可以参考官方文档：[https://code.claude.com/docs/zh-CN/overview](https://code.claude.com/docs/zh-CN/overview)
+
+**macOS / Linux / WSL：**
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+**Windows PowerShell：**
+
+```powershell
+irm https://claude.ai/install.ps1 | iex
+```
+
+**Windows CMD：**
+
+```cmd
+curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
+```
+
+## CC-Switch 配置 Claude Code
 
 1. 打开你下载的CC Switch软件，你会看到如下图的初始界面
 
@@ -31,4 +55,3 @@
 8. 在终端运行 `claude`，看到对话界面并能正常回复即表示配置完成
 
 ![](https://docs.packyapi.com/assets/image/Cli/016.webp)
-

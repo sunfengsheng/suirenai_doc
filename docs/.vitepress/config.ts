@@ -38,7 +38,7 @@ export default defineConfig({
         {
           text: '第三方工具配置',
           items: [
-            { text: 'Claude Code + CC-Switch 快速配置', link: '/ccswitch/1-common' },
+            { text: 'CC-Switch 配置', link: '/ccswitch/1-common' },
             { text: 'Claude Code 配置', link: '/ccswitch/2-claude' },
             { text: 'Codex 配置', link: '/ccswitch/3-codex' },
           ],
@@ -57,7 +57,7 @@ export default defineConfig({
         {
           text: '第三方工具配置',
           items: [
-            { text: 'Claude Code + CC-Switch 快速配置', link: '/ccswitch/1-common' },
+            { text: 'CC-Switch 配置', link: '/ccswitch/1-common' },
             { text: 'Claude Code 配置', link: '/ccswitch/2-claude' },
             { text: 'Codex 配置', link: '/ccswitch/3-codex' },
           ],
@@ -76,7 +76,7 @@ export default defineConfig({
         {
           text: '第三方工具配置',
           items: [
-            { text: 'Claude Code + CC-Switch 快速配置', link: '/ccswitch/1-common' },
+            { text: 'CC-Switch 配置', link: '/ccswitch/1-common' },
             { text: 'Claude Code 配置', link: '/ccswitch/2-claude' },
             { text: 'Codex 配置', link: '/ccswitch/3-codex' },
           ],

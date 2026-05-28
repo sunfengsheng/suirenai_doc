@@ -1,26 +1,4 @@
-# Claude Code + CC-Switch 快速配置
-
-## 安装 Claude Code
-
-安装 Claude Code 可以参考官方文档：[https://code.claude.com/docs/zh-CN/overview](https://code.claude.com/docs/zh-CN/overview)
-
-**macOS / Linux / WSL：**
-
-```bash
-curl -fsSL https://claude.ai/install.sh | bash
-```
-
-**Windows PowerShell：**
-
-```powershell
-irm https://claude.ai/install.ps1 | iex
-```
-
-**Windows CMD：**
-
-```cmd
-curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
-```
+# CC-Switch 配置
 
 ## 安装 CC-Switch
 
